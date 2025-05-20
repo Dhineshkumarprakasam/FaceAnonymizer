@@ -3,7 +3,6 @@ from werkzeug.utils import secure_filename
 import os
 import cv2
 from mediapipe import solutions
-os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
 
 
 app = Flask(__name__)
